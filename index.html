@@ -1,0 +1,35 @@
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario HTML</title>
+  </head>
+  <body>
+    <h1>Formulario de Datos</h1>
+    <form method="get" action="">
+      <p>
+      <label for="nombre">Ingresa tu nombre:<span class="required"></span></label><br>
+      <input class="imprimir" type="text" id="nombre" name="nombre" value="" placeholder="" required/>
+      </p>
+      <p>
+      <label for="apellido">Ingresa tu apellido: <span class="required"></span></label><br>
+      <input <input class="imprimir" type="text" id="apellido" name="apellido" value="" placeholder="" required/>
+      </p>
+      <p>
+      <label for="dni">Ingresa tu DNI: <span class="required"></span></label><br>
+      <input <input class="imprimir" type="text" id="dni" name="dni" pattern="[0-9]{8,}" value="" placeholder="" required/>
+      </p>
+      <p>
+      <label for="direccion">Ingresa tu dirección: <span class="required"></span></label><br>
+      <input <input class="imprimir" type="text": id="direccion" name="direccion" value="" placeholder="" required/><br></br>
+      </p>
+      <p>
+        <button type="submit" onclick="datos()" value="Enviar Datos">Enviar Datos</button>
+        <input type="reset" value="Borrar">
+      </p>
+    </form>
+    <div id="imprimir"></div>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
